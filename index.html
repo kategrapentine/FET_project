@@ -3,24 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Home</h1>
-    <div>
+    <header>
+        <h1>Moomin Island Brochure</h1>        
+        <a href="residents.html">Residents</a> 
+        <a href="about.html">About</a>                
         <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="residents.html">Residents</a>
+    </header>
+
+    <div class="background-picture" id="index">
+        <h1>-Home-</h1>
+        <h3><i>“You must go on a long journey before you can really find out how wonderful home is.” - Tove Jansson</i></h3>
     </div>
     <div>
-        <img src="photos/townhall.jpg" alt="Moomin Island Town Hall"/>
-        <h3>Welcome to Moomin Island's official website!</h3>
+
+        <h2>Welcome to Moomin Island's official website!</h2>
         <p>
             Moomin Island is my island in Animal Crossing: New Horizons,
             full of many fun attractions and cute animal villagers.
         </p>
-        <h4>Things you can do while visiting Moomin Island:</h4>
-        <ul>
+    </div>
+    <div>
+        <h3>Things you can do while visiting Moomin Island:</h3>
+        <p><ul>
             <li>Buy and sell at Nook's Cranny</li>
             <li>Shop for clothes at the Able Sisters Tailor Shop</li>
             <li>Visit the Museum and Town Hall</li>
@@ -30,24 +39,57 @@
             <li>Get ideas for DIY's</li>
             <li>Fish and catch bugs</li>
             <li>Participate in the Moomin Turnip Stock Market</li>
-        </ul>
+        </ul></p>
+        
     </div>
     <div>
-        <h4>Moomin Island Poll</h4>
-        <p>Please vote for your favorite Moomin Island resident below:</p>
+        <h2>Moomin Island Poll</h2>
+        <p>Please vote for your favorite Moomin Island resident below:
         <form>
-            <input type="radio" name="resident" value="Stinky"> Stinky the Cat <br>
-            <input type="radio" name="resident" value="Canberra"> Canberra the Koala <br>
-            <input type="radio" name="resident" value="Penelope"> Penelope the Mouse <br>
-            <input type="radio" name="resident" value="Skye"> Skye the Wolf <br>
-            <input type="radio" name="resident" value="Grizzly"> Grizzly the Bear <br>
-            <input type="radio" name="resident" value="Chadder"> Chadder the Mouse <br>
-            <input type="radio" name="resident" value="Soleil"> Soleil the Hamster <br>
-            <input type="radio" name="resident" value="Claudia"> Claudia the Tiger <br>
-            <input type="radio" name="resident" value="Lobo"> Lobo the Wolf <br>
-            <input type="radio" name="resident" value="Teddy"> Teddy the Bear <br>
-            <input type="submit" value="submit vote">
+            <label class="container"> 
+                <input class="button" type="radio" name="resident" value="Stinky"> Stinky the Cat
+                <span class="checkmark"></span>
+            </label>
+            <label class="container"> 
+                <input type="radio" name="resident" value="Canberra"> Canberra the Koala
+                <span class="checkmark"></span>
+            </label>
+            <label class="container"> 
+                <input class="button" type="radio" name="resident" value="Penelope"> Penelope the Mouse
+                <span class="checkmark"></span>
+            </label>
+            <label class="container"> 
+                <input class="button" type="radio" name="resident" value="Skye"> Skye the Wolf
+                <span class="checkmark"></span>
+            </label>
+            <label class="container"> 
+                <input class="button" type="radio" name="resident" value="Grizzly"> Grizzly the Bear
+                <span class="checkmark"></span>
+            </label>
+            <label class="container"> 
+                <input class="button" type="radio" name="resident" value="Chadder"> Chadder the Mouse
+                <span class="checkmark"></span>
+            </label>
+            <label class="container"> 
+                <input class="button" type="radio" name="resident" value="SoleiSoleil">Soleil the Hamster
+                <span class="checkmark"></span>
+            </label>
+            <label class="container"> 
+                <input class="button" type="radio" name="resident" value="Claudia">Claudia the Tiger
+                <span class="checkmark"></span>
+            </label>
+            <label class="container"> 
+                <input class="button" type="radio" name="resident" value="Lobo"> Lobo the Wolf
+                <span class="checkmark"></span>
+            </label>
+            <label class="container"> 
+                <input class="button" type="radio" name="resident" value="Teddy">Teddy the Bear
+                <span class="checkmark"></span>
+            </label>
+
+            <input type="submit" value="Submit Vote">
         </form>
+        </p>
     </div>
 </body>
 </html>
