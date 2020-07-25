@@ -29,9 +29,11 @@ a {
     float: right;
     background-color: #95DFEC;
     padding: 5px;
-    padding-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0px;
     font-size: 20;
+    font-weight: bold;
 }
 
 /* changes the color of the button when the cursor is over it: */
