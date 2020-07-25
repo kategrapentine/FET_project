@@ -46,6 +46,12 @@ p {
     margin: 20px;
 }
 
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
 div{
     margin: 15px;
     background-color: #F1EFE2;
@@ -61,11 +67,11 @@ div{
 /* This ID is for the image in about. */
 #passport {
     float: right;
-    width: 40%;
+    width: 45%;
     border-color: #875f4f;
     border-style: double;
     border-radius: 30px;
-    margin: inherit;html:
+    margin: inherit;
 }
 
 
